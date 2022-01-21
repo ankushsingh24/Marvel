@@ -9,12 +9,27 @@ def index(request):
 
 
 def avengers(request):
-    return HttpResponse('<h1>This is the Avengers page</h1>')
+    return render(request, 'avengers.html')
+    # return HttpResponse('<h1>This is the Avengers page</h1>')
 
 
 def phaseI(request):
-    return HttpResponse('<h1>This is the Phase I page</h1>')
+    return render(request, 'phaseI.html')
+    # return HttpResponse('<h1>This is the Phase I page</h1>')
+
+
+def phaseII(request):
+    return render(request, 'phaseII.html')
+
+
+def phaseIII(request):
+    return render(request, 'phaseIII.html')
+
+
+def phaseIV(request):
+    return render(request, 'phaseIV.html')
 
 
 def contact(request):
-    return HttpResponse('<h1>This is the Contact page</h1>')
+    return render(request, 'contact.html')
+    # return HttpResponse('<h1>This is the Contact page</h1>')
