@@ -1,41 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Marvel</title>
 </head>
 
 <body>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptates modi laudantium sequi delectus eius
-    eligendi nemo repellat doloribus esse quaerat corporis maxime, assumenda recusandae vel saepe, fuga ducimus
-    reprehenderit quibusdam culpa? Maxime assumenda asperiores nisi ex doloremque dolore ducimus iure! Dolorem
-    voluptates a beatae aspernatur nam at repellat, exercitationem obcaecati consectetur consequuntur quas eius vitae
-    nemo alias doloremque tenetur magni incidunt necessitatibus. Vel, corrupti. Harum corporis odit optio, deleniti,
-    voluptates dicta, ipsa nisi numquam porro enim doloremque rerum sapiente cum facere! Maiores tenetur adipisci,
-    aliquid labore reiciendis ullam impedit rerum blanditiis quidem animi ipsa asperiores, totam, fuga sequi nesciunt
-    sed accusamus ipsam necessitatibus illum laborum voluptate minus commodi deleniti? Voluptatibus pariatur sunt
-    doloremque, rerum exercitationem alias, quis aperiam fugit necessitatibus sapiente cupiditate voluptates maxime quos
-    illum eum qui ipsum porro quo, quae tenetur dolore. Suscipit fugit aliquid amet ducimus tempore nisi magni,
-    sapiente, aliquam eius veniam assumenda iste illum non maxime odit cumque enim. Expedita vitae voluptates recusandae
-    accusamus veniam placeat mollitia adipisci quisquam ut cupiditate at excepturi, dolorum quae fugiat iste dolores
-    perspiciatis alias in eius assumenda tempore, explicabo temporibus? Quibusdam officiis quod consequuntur iure libero
-    sequi deleniti consequatur, vero unde saepe odit provident ullam fugiat neque minus esse magni adipisci nemo nostrum
-    repudiandae, ipsa quo cupiditate, animi a. Est suscipit explicabo recusandae soluta, voluptatibus magni enim quis,
-    in earum magnam dolore minus eaque nam necessitatibus cumque cum rem officiis culpa odio omnis voluptas molestias
-    rerum sequi? Expedita qui, molestias eaque odit esse, magnam repudiandae beatae incidunt voluptatem eos ratione a
-    officiis animi facilis cumque dolore sed odio autem, dolorem possimus velit porro? Quia quos, fugiat, quidem vero
-    nulla totam ut accusamus, mollitia explicabo numquam minus quod dolor deleniti harum vel. Id magnam a vitae
-    dignissimos laborum maxime. Fugit dignissimos ipsa dicta quod ipsam in corrupti quas, eos architecto totam
-    asperiores aut rerum, dolores fugiat ducimus vitae praesentium animi tempore consequuntur eaque sunt explicabo
-    veritatis ullam. Cum magni repudiandae debitis nihil ea itaque ratione vitae? Totam, voluptatem? Amet doloribus iure
-    necessitatibus vitae vero, recusandae quos molestias voluptatum saepe nesciunt quod adipisci quis eum, hic est
-    aspernatur! Repudiandae aliquam assumenda exercitationem consequatur rerum dolor quibusdam tenetur expedita
-    asperiores accusantium voluptates quam sequi nemo suscipit accusamus nesciunt quidem autem, ipsum esse mollitia
-    possimus libero. Vitae eius nulla, aut ipsa minima nemo est corrupti odit nisi! Dolor laboriosam nisi doloremque
-    reprehenderit sapiente debitis quos quisquam similique. Ipsam aperiam vel quasi nostrum.
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Marvel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/avengers">Avengers</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Phase
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/phaseI">I</a></li>
+                            <li><a class="dropdown-item" href="/phaseII">II</a></li>
+                            <li><a class="dropdown-item" href="/phaseIII">III</a></li>
+                            <li><a class="dropdown-item" href="/phaseIV">IV</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
