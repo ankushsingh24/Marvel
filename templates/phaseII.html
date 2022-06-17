@@ -1,6 +1,31 @@
 {% extends 'base.html' %} {% block title %} Phase II {% endblock title %} {%
-block body %} {% block body %}
-
-<h1>This is the Phase II page.</h1>
-
-{% endblock body %}
+    block body %} {% block body %}
+    
+    <section>
+      <div class="container-fluid px-0">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="../static/img/Age_Of_Ultron.jpg"
+                class="d-block w-100"
+                alt="..."
+                height="656"
+              />
+              <div
+                class="carousel-caption d-none d-md-block"
+                style="background-color: black; border-radius: 68px; opacity: 0.7"
+              >
+                <h1><b>Phase-II (2013 - 2015)</b></h1>
+                <p>
+                    When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth's
+                    Mightiest Heroes are put to the ultimate test as the fate of
+                    the planet hangs in the balance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% endblock body %}
+    
