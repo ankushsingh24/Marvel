@@ -1,1 +1,1 @@
-web: gunicorn Marvel.wsgi --logfile -
+web: gunicorn Marvel.wsgi 
